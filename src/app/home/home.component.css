@@ -1,0 +1,36 @@
+.hellotext{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  position: sticky;
+  top:50%;
+  opacity: 1;
+
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.background2 .content{
+  padding: 10vh 0 0 0;
+}
+.content h1 {
+  text-transform: capitalize;
+
+}
+.content .objecttext{
+  margin: 38px 0;
+  color: black;
+  border-bottom:2px solid black;
+  border-top: 2px solid black;
+
+}
+@media (min-width: 800px) {
+  .hellotext{
+    font-size: 2vw;
+    display: inline-block;
+    top: 35%;
+    left: 62%;
+  }
+  .background2 .content{
+    padding: 23vh 20vh 0 20vh;
+  }
+}

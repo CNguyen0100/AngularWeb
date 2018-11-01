@@ -1,0 +1,28 @@
+.mainnav-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.sidenav-container {
+  height: 0%;
+  background-color: transparent;
+}
+
+.sidenav {
+  background-color: transparent;
+  width: 120px;
+}
+.sidenav .item{
+  color: white;
+}
+.sidenav .menutext{
+  background-color:transparent;
+}
+.sidenav .mat-toolbar{
+  background-color: transparent;
+}
+
+
