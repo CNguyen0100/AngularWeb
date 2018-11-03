@@ -8,11 +8,12 @@
 
 .sidenav-container {
   height: 0%;
-  background-color: transparent;
 }
 
 .sidenav {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background: black;
+  box-shadow: 10px 0px 10px rgba(0,0,0,0.19), 8px 0px 10px rgba(0,0,0,0.23);
   width: 120px;
 }
 .sidenav .item{
