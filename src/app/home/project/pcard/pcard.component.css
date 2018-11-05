@@ -1,0 +1,14 @@
+.cardwrapper{
+    min-width:200px;
+    min-height: 100px;
+    max-width: 300px;
+    margin: 20px;
+  }
+  .title{
+    text-align: center;
+    text-justify: distribute;
+  }
+  .pcard-img{
+    min-width: 80px;
+    min-height: 80px;
+  }

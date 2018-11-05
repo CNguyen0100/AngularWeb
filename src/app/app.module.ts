@@ -10,6 +10,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/about/about.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
+import { ProjectComponent } from './home/project/project.component';
+import { PcardComponent } from './home/project/pcard/pcard.component';
+import { ExperiencesComponent } from './home/experiences/experiences.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { MainnavComponent } from './mainnav/mainnav.component';
     HomeComponent,
     AboutComponent,
     MainnavComponent,
+    ProjectComponent,
+    PcardComponent,
+    ExperiencesComponent,
 
   ],
   imports: [

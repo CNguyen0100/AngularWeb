@@ -1,0 +1,23 @@
+<div fxLayout.lt-sm="column" class="project-wrapper">
+  <div fxFlex="20"  fxLayout="column" 
+  fxLayoutAlign="none center" class="header">
+    <div class="title">Projects</div>
+    <mat-chip-list fxFlexOffset="20px"class="mat-chip-list-stacked" 
+    [ngClass.lt-sm]="{'mat-chip-list-stacked':false}"
+    class="chiplist"
+    >
+        <mat-chip >Python</mat-chip>
+        <mat-chip>C#</mat-chip>
+        <mat-chip>Java</mat-chip>
+        <mat-chip>Angular</mat-chip>
+        <mat-chip>Java</mat-chip>
+        <mat-chip>Unity</mat-chip>
+    </mat-chip-list>
+  </div>
+  <div fxFlex="80"fxLayout="row wrap" 
+  fxLayoutAlign="space-evenly" class="content">
+     <app-pcard></app-pcard>
+     <app-pcard></app-pcard>
+     <app-pcard></app-pcard>
+  </div>
+</div>

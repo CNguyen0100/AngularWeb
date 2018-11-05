@@ -1,4 +1,4 @@
-<div fxLayout="row" fxLayoutGap="0%" fxLayoutGap.md-xs="0" fxLayout.xs="column-reverse"  fxFlexAlign="Center" class="aboutwrapper">
+<!-- <div fxLayout="row" fxLayoutGap="0%" fxLayoutGap.md-xs="0" fxLayout.xs="column-reverse"  fxFlexAlign="Center" class="aboutwrapper">
     <div  fxFlex="60vw" fxFlex.xs="100vw"  
     fxLayout="column wrap" fxFlexAlign="Center" class="left-container">
         <div class="abouttext">
@@ -16,36 +16,29 @@
         <div class="quote">
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, impedit."
         </div>
+    </div> -->
+
+<div fxLayout="row-reverse" fxLayout.lt-sm="column"
+fxLayoutAlign="space-evenly none"
+fxLayoutAlign.lt-sm="none"
+class="about-container">
+  <div fxFlex="30%" fxLayout="column" fxLayoutAlign="space-around" class="header">
+    <p>"I'm not a great programmer.I'm just a good programmer with great habits"</p>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center"  class="content">
+    <div fxFlexAlign="start" class="title">Kevin</div>
+    <div fxLayout="column" fxLayoutAlign=" start none" fxLayoutAlign.lt-sm="start none"  class="maincontent">
+        <p>Hi, there! My Name Is Kevin Nguyen</p>
+        <p>A Software Engineer at Tenosar Corporation</p>
+        <p>A Recent Computer Science at University of Central Florida</p>
+        <p>A Seeker of new full time opportunity</p>
+        <p>A coder who love to learn from you, your team, and your company</p>
     </div>
-
-<!--     
-        <mat-grid-list class="contentGrid" cols="2" rowHeight="4em" >
-            <mat-grid-tile>
-                <mat-list>
-                    <mat-list-item>
-                        
-                        <p class="aboutTitle">
-                                About
-                        </p>
-                    </mat-list-item>
-                    <mat-list-item>
-                        
-                        <div class="intro">
-                        </div>
-                    </mat-list-item>
-                    <mat-list-item>
-                        <div class="row">
-                        </div>
-                    </mat-list-item>
-                </mat-list>
-
-            </mat-grid-tile>
-            <mat-grid-tile rowspan="1" colspan="1">
-                <div class="quote">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, amet?
-                </div>
-            </mat-grid-tile>
-        </mat-grid-list> -->
+    <div fxFlexOffset="20px" fxLayout="column" class="more">
+      <div fxFlexAlign="stretch center">More about me</div>
+      <button fx mat-raised-button	color="primary" class="resBtn">
+        My Resume
+      </button>
     </div>
-
-
+  </div>
+</div>
