@@ -4,12 +4,15 @@
 }
 .content{
   color: white;
+  font-size: 1.4em;
 }
 
 .content .title{
-  margin: 10px;
-  padding: 10px 40px;
-  border: 1px solid white;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 10px 10px 10px 0;
+  padding: 10px 40px 10px 0;
+  /* border: 1px solid white; */
 }
 .content .maincontent{
   /* text-align: center; */
@@ -39,9 +42,13 @@
   white-space: nowrap;
 }
 
-.header{
-  background-color: white;
-  font-size: 1em;
+.header p{
+  /* background-color: rgba(255, 255, 255, 0.514); */
+  font-size: 1.5em;
+  line-height: 2em;
   text-align: center;
   text-justify: distribute;
+  font-weight: bold;
+  border: 5px solid white;
+  color: white;
 }
