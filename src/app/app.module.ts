@@ -10,22 +10,21 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/about/about.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
-import { ProjectComponent } from './home/project/project.component';
-import { PcardComponent } from './home/project/pcard/pcard.component';
 import { ExperiencesComponent } from './home/experiences/experiences.component';
 import { ProjectsComponent } from './projects/projects.component';
-
+import {PcardComponent} from './projects/pcard/pcard.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
     MainnavComponent,
-    ProjectComponent,
-    PcardComponent,
     ExperiencesComponent,
     ProjectsComponent,
-
+    PcardComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +32,11 @@ import { ProjectsComponent } from './projects/projects.component';
     BrowserAnimationsModule, LayoutModule,
     MaterialModule,
     FlexLayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

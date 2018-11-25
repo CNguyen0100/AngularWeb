@@ -1,0 +1,38 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="over">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="top-menubar">
+      <div fxLayout="row" fxFill fxLayoutAlign="space-between center">
+          <button
+            type="button"
+            aria-label="Toggle sidenav"
+            mat-icon-button
+            (click)="drawer.toggle()"
+            fxShow="false" fxShow.lt-sm="true" >
+            <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+          </button>
+        <div  fxShow="true" fxShow.lt-sm="false" class="top-left-button-wrapper">
+          <button mat-button>Kevin</button>
+          <button mat-button>Projects</button>
+          <button mat-button>Blogs</button>
+          <button mat-button>Contact</button>
+        </div>
+        <div class="top-right-button-wrapper" >
+          <a mat-button>Github</a>
+        </div>
+
+      </div>
+    </mat-toolbar>
+    <!-- Add Content Here --><router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

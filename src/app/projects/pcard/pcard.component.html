@@ -1,0 +1,25 @@
+<mat-card class="card-container">
+  <div mat-card-image class="project-img"
+  (mouseover)="imagehover=true" (mouseleave)="imagehover=false">
+      <img
+      src="{{project.thumbnailUrl}}"
+      alt="Photo of the project">
+
+      <div *ngIf="imagehover"
+      fxLayout="column" fxLayoutAlign="center center"
+      fxLayoutGap="10px"
+      fxFill
+      class= "img-btns">
+        <a mat-raised-button>View More</a>
+        <a mat-raised-button>Github page</a>
+      </div>
+  </div>
+
+  <mat-card-header class="card-header">
+    <div mat-card-avatar class="card-header-image"></div>
+    <mat-card-title class="card-header-title">{{project.title}}</mat-card-title>
+    <mat-card-subtitle class="card-header-subtitle">{{project.subtitle}}</mat-card-subtitle>
+    <span>{{project.id}}</span>
+    <span>{{project.projectUrl}}</span>
+  </mat-card-header>
+</mat-card>

@@ -1,5 +1,7 @@
-.projects-container{
-  height: 100vh;
+.page-container{
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
   background: #101010;
   color: white;
 }
