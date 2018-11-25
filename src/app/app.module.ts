@@ -9,8 +9,6 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/about/about.component';
-import { MainnavComponent } from './mainnav/mainnav.component';
-import { ExperiencesComponent } from './home/experiences/experiences.component';
 import { ProjectsComponent } from './projects/projects.component';
 import {PcardComponent} from './projects/pcard/pcard.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -20,8 +18,6 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     AppComponent,
     HomeComponent,
     AboutComponent,
-    MainnavComponent,
-    ExperiencesComponent,
     ProjectsComponent,
     PcardComponent,
     NavbarComponent,
